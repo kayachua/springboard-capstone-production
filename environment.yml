@@ -1,0 +1,27 @@
+name: myenv
+
+channels:
+  - nodefaults
+  - conda-forge
+  - huggingface
+
+dependencies:
+
+  - python=3.9
+  - tensorflow-base
+
+  # hugging face libraries
+  - transformers
+#  - datasets
+
+  # emoji required for bertweet
+  - emoji=0.6.0
+
+  - flask
+
+  # tensorflow
+
+  # required libraries for GPU training
+  # - tensorflow-gpu
+  # - cudatoolkit
+  # - cudnn
